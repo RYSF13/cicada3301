@@ -1,0 +1,42 @@
+/*
+	WEBPAGE SNAPSHOT 
+	Saved at 2024-01-01 00:00:00 UTC
+	URL: https://cicada3301.org/style.css
+*/
+
+/* PATCH: Repair font references */
+/* PATCH CODE INSERTING START */
+@font-face {font-family: futura; font-weight: bold; src: url("./futura.ttf"); }
+/* PATCH CODE INSERTING END */
+
+/* tags */
+body {font: 11pt futura, helvetica, arial, sans-serif;
+background: black; color: #dddddd;
+	font-weight: nomal; }
+h1 { color: white; font-weight: normal; }
+img { height: 90px; }
+ul { list-style-type: none; }
+pre { display: table; table-layout: fixed; font-size: 0.7em; margin: 0 auto; }
+/* links */
+a { color: white; text-decoration: underline; }
+a:hover { color: red; text-decoration: underline; }
+a:visited { color #dddddd; text-decoration: underline; }
+/* tables */
+table { table-layout: fixed; width: 100%; }
+/* structure */
+/* menu */
+.menu a { color: white; text-decoration: none; margin: 10px; }
+.menu a:hover { text-decoration: underline; }
+.header { margin: 0 auto; height: 100px; max-width: 40pc; }
+.content { width: 33pc; margin: 0 auto; }
+/* colors */
+.white { color: white; }
+.red { color: red; }
+.black { color: black; }
+/* text */
+.center { text-align: left; }
+.center { text-align: center; }
+.right { text-align: right; }
+.small { font-style: normal; font-size: 80%; }
+.double { font-size: 200%; }
+.indent { padding-left: 20px; }
